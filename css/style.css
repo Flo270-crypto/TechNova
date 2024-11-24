@@ -1,0 +1,77 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: red;
+    color: black;
+    
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+} 
+
+ul li{
+    padding: 15px;
+    font-weight: bold;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+}
+
+header button{
+    padding:  10px 20px;
+    background-color: black;
+    color: white;
+    border:none;
+}
+
+
+.heros{
+    padding: 100px 30px;
+    background: linear-gradient(#0000007c, #0000007c), url(../img/futuristic-representation-water-vehicle.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+    
+}
+.heros h1{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.fonction{
+    padding: 40px 20px;
+
+}
+.align-fonct{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.gest-tasks{
+    padding: 10px 10px;
+    box-shadow: 1px 1px 10px 1px #0000007c;
+    width: 250px;
+    text-align: center;
+}
+
